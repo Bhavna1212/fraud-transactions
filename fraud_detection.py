@@ -236,4 +236,19 @@ y_prob_rf_tuned = best_rf.predict_proba(X_test)[:, 1]
 print("Tuned Random Forest AUC-ROC:", roc_auc_score(y_test, y_prob_rf_tuned))
 
 
+import joblib
+import os
+
+# Train your model (make sure best_rf is your trained model)
+# Example:
+# best_rf.fit(X_train, y_train)
+
+# Save the trained model
+joblib.dump(best_rf, "fraud_detection_model.pkl")
+print("Model saved as fraud_detection_model.pkl")
+
+# Check if the file is created
+if os.path.exists("fraud_detection_model.pkl"):
+    print("Model file generated successfully!")
+
 
