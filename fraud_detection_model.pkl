@@ -1,0 +1,2 @@
+python fraud_detection.py
+ls -lh fraud_detection_model.pkl
