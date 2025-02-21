@@ -1,7 +1,7 @@
 # Fraud Detection System
 
 ## 📌 Project Overview
-This project is a **Fraud Detection System** designed to identify fraudulent transactions in **social security benefits payments** using **machine learning models**. The system applies **data preprocessing, feature engineering, and classification algorithms** to distinguish between fraudulent and non-fraudulent transactions.
+This project is a **Fraud Detection System** designed to identify fraudulent transactions using **machine learning models**. The system applies **data preprocessing, feature engineering, and classification algorithms** to distinguish between fraudulent and non-fraudulent transactions.
  
 Key features of the project:
 - **Synthetic fraud dataset** creation
